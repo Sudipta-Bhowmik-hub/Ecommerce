@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-commerce Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>E-commerce Catalog</h1>
+
+    <div class="controls">
+      <button onclick="loadAll()">🔄 Load All Products</button>
+      <input type="text" id="categoryInput" placeholder="Enter category">
+      <button onclick="filterByCategory()">🔍 Filter by Category</button>
+      <button onclick="loadVariants()">🎯 Show Variants Only</button>
+    </div>
+
+    <div id="productList" class="product-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
